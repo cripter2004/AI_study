@@ -1,0 +1,16 @@
+Xtrain -> 예측되는 테스트 입력값(80%)
+Xtest -> 결과값
+Ytrain -> 실제 테스트 입력값(20%)
+Ytest -> 결과값
+iris 데이터를 랜덤으로 섞어서 8:2로 나눠서 씀
+
+1. model building
+- df = dataframes -> 데이터를 가져와서 엑셀 표 형태로 만드는 과정
+- x, y => 행, 열
+
+2. traning
+- dt.fit(X_train, Y_train)
+
+3. predict
+- Y_pred = dt.pred(X_test)
+
